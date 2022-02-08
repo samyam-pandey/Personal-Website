@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>Technical Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body style="background-color:lightgray;">
+    <div class="img">
+      <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Aboutme.html">About me</a></li>
+            <li><a href="Portfolio.html">Technical portfolio</a></li>
+            <li><a href="Qualifications.html">Qualifications</a></li>
+            <li><a href="Service.html">Service</a></li>
+            <button onclick="myFunction('style.css')">Deafult</button>
+            <button onclick="myFunction('style1.css')">Change</button>
+
+        </ul>
+      </div>
+      <div class="Portfolio">
+        <h1>Portfolio: </h1>
+        <p>In this section you are able to see my some of my Technical projects and my github. </p><br>
+        <h2>Veo Ride Bike-share Optimization: </h2>
+        <p1>Determining Long-Term Usage Patterns and Key User Hotspots- 
+          Used datasets provided by Texas A&M University Transportation Services to improve the efficiency and the effectiveness of the bike sharing system Veo Rides. 
+          Using machine learning, data and predictive modelling, we designed a system that implements bike stations at effective locations with high demand of potential users. 
+          Tools used to conduct analysis and visualization were Python, ArcGIS Pro and Excel.</p1><br>
+        <h3>Traffic Signs: </h3>
+        <p2>Used Python and Tensorflow to build a neural network able to classify road signs based on images of
+            those signs– stop signs, speed limit signs, yield signs, and more. Did this to help build a proficient computer vision
+            program for self-driving cars. This allows these cars to develop an understanding of their environment from digital images</p2><br>
+        <h4>This is a link to my github with most of my projects:</h4>
+        <p3><a href="https://github.com/samyam-pandey">
+          <button>
+            Github <span></span>
+        </button>
+        </a></p3> 
+      </div>
+
+    </div>
+    <script type="text/javascript">
+      function myFunction(sheet){
+        document.getElementById('pagestyle').setAttribute('href',sheet);
+      }
+    </script>
+
+  </body>
+</html>

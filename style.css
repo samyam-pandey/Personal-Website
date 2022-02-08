@@ -1,0 +1,310 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+}
+
+
+.img{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    rgba(0,0,0,0,75)
+    rgba(0,0,0,0,75)
+  );
+  background-size: cover;
+  background-position: center;
+
+}
+.navbar_ind{
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: gray;
+}
+.navbar_ind ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar_ind ul li a{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+
+}
+.navbar_ind ul li::after{
+  content:'';
+  height: 3px;
+  width: 0;
+  background: maroon;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 1s;
+}
+.navbar_ind ul li:hover::after{
+  width: 100%;
+}
+.navbar{
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+
+}
+.navbar ul li::after{
+  content:'';
+  height: 3px;
+  width: 0;
+  background: maroon;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 1s;
+}
+.navbar ul li:hover::after{
+  width: 100%;
+}
+.home{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: black;
+  background: lightslategray;
+}
+.home h1{
+  font-size: 70px;
+  margin-top: 80px;
+}
+.home p1{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+.portfolio{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: black;
+  
+
+}
+.portfolio h1{
+  font-size: 70px;
+  font-family: sans-serif;
+
+}
+.portfolio p{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+
+}
+
+.portfolio h2{
+  font-size: 30px;
+  font-family: sans-serif;
+
+}
+
+.portfolio p1{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+
+}
+.portfolio h3{
+  font-size: 30px;
+  font-family: sans-serif;
+  
+}
+.portfolio p2{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+
+}
+.portfolio h4{
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.portfolio p3{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+.service{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: black;
+  
+
+}
+
+.service h1{
+  font-size: 70px;
+  font-family: sans-serif;
+}
+.service p{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+.service h2{
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.service p1{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+.service h3{
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.service p2{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+.service h4{
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.service p3{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+.about{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: black;
+  
+
+}
+.about h1{
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.about p{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+.about h2{
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.about p1{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+.q{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: black;
+  
+
+}
+.q h1{
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.q p1{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+.q h2{
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.q p2{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+.q h3{
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.q p3{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+.q h4{
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.q p4{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+button{
+  width: 80px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 10px 10px;
+  border-radius: 35px;
+  font-weight: bold;
+  border: 2px solid maroon;
+  background: transparent;
+  color: black;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+span{
+  background: gray;
+  height: 100%;
+  width: 0;
+  border-radius: 35px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 1s;
+}
+button:hover span{
+  width: 100%;
+}
+button:hover{
+  border: none;
+}
+
